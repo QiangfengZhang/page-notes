@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.main {
+	width: 100%;
+	height: 600px;
+}
+
+.head_input {
+	width: 100%;
+	height: 80px;
+	top: 0px;
+	position: fixed;
+	z-index: 1;
+	background-color: rgba( 238, 238, 238, 0.5);
+}
+
+.form {
+	width: 520px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#note {
+	list-style-type: none;
+}
+
+.notes {
+	margin-top: 100px;
+}
+
+.li_note {
+	width: 160px;
+	height: 180px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 40px;
+	padding: 20px 20px;
+	border-radius: 10px;
+	background-color: blue;
+	word-break: break-all;
+}
+
+.span_note {
+	color: black;
+}
+
+#text_note {
+	width: 300px;
+	height: 28px;
+	border-style: none;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+#btn_1,#btn_2 {
+	width: 100px;
+	height: 30px;
+	margin: auto auto;
+	color: white;
+	border-radius: 8px;
+	background-color: seagreen;
+	border-style: none;
+}
+
+#bg {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
